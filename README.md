@@ -11,6 +11,7 @@
     - `GitHub Light High Contrast` ✨ new ✨
     - `GitHub Light Colorblind` ✨ new ✨
     - `GitHub Dark Default`
+    - `GitHub Dark Default Black` ✨ added by maddada for OLED screens ✨
     - `GitHub Dark High Contrast`
     - `GitHub Dark Colorblind` ✨ new ✨
     - `GitHub Dark Dimmed`
