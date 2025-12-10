@@ -1,4 +1,4 @@
-# GitHub's VS Code themes
+# GitHub's VS Code themes [Modded to match Github's Actual Default Dark Theme as of Dec 2025]
 
 ![GitHub VS Code theme](https://user-images.githubusercontent.com/378023/132220037-3cd3e777-55a6-445f-9a2e-da6020ebd78d.png)
 
