@@ -41,6 +41,19 @@ function getColors(theme) {
       return darkColorblindColors;
     case "dark_dimmed":
       return dimmedColors;
+    case "dark_black":
+      // Dark Black - same as dark but with pure black backgrounds
+      const darkBlackColors = JSON.parse(JSON.stringify(darkColors));
+      darkBlackColors.canvas.default = "#000000";
+      darkBlackColors.canvas.inset = "#000000";
+      darkBlackColors.fg.default = "#e6edf3";
+      darkBlackColors.fg.muted = "#7d8590";
+      darkBlackColors.accent.fg = "#2f81f7";
+      darkBlackColors.severe.subtle = "rgba(219, 109, 40, 0.1)";
+      darkBlackColors.danger.subtle = "rgba(248, 81, 73, 0.1)";
+      darkBlackColors.done.subtle = "rgba(163, 113, 247, 0.1)";
+      darkBlackColors.sponsors.subtle = "rgba(219, 97, 162, 0.1)";
+      return darkBlackColors;
     default:
       throw new Error(`Colors are missing for value: ${theme}`);
   }

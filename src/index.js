@@ -37,6 +37,11 @@ const darkDimmedTheme = getTheme({
   name: "GitHub Dark Dimmed"
 })
 
+const darkBlackTheme = getTheme({
+  theme: "dark_black",
+  name: "GitHub Dark Default Black"
+})
+
 // Classic
 
 const lightTheme = getClassicTheme({
@@ -60,6 +65,7 @@ fs.mkdir("./themes", { recursive: true })
     fs.writeFile("./themes/dark-high-contrast.json", JSON.stringify(darkHighContrastTheme, null, 2)),
     fs.writeFile("./themes/dark-colorblind.json", JSON.stringify(darkColorblindTheme, null, 2)),
     fs.writeFile("./themes/dark-dimmed.json", JSON.stringify(darkDimmedTheme, null, 2)),
+    fs.writeFile("./themes/dark-default-black.json", JSON.stringify(darkBlackTheme, null, 2)),
     fs.writeFile("./themes/light.json", JSON.stringify(lightTheme, null, 2)),
     fs.writeFile("./themes/dark.json", JSON.stringify(darkTheme, null, 2)),
   ]))

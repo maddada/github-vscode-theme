@@ -69,6 +69,11 @@
         "path": "./themes/dark-dimmed.json"
       },
       {
+        "label": "GitHub Dark Default Black",
+        "uiTheme": "vs-dark",
+        "path": "./themes/dark-default-black.json"
+      },
+      {
         "label": "GitHub Light",
         "uiTheme": "vs",
         "path": "./themes/light.json"
